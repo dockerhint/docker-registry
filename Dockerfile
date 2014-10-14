@@ -6,7 +6,7 @@
 # TO_RUN:         docker run -p 5000:5000 registry
 
 # Latest Ubuntu LTS
-FROM ubuntu:14.04
+FROM phusion/baseimage:0.9.15
 
 # Update
 RUN apt-get update
